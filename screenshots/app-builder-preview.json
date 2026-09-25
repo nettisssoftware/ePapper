@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Editorial",
+      "hasCanvas": false,
+      "bodyTextLen": 1837,
+      "bodyTextHash": "51a1eb71cd44b68b9fcd2a4e59dc4939075d66e7c407bbe742c94a42f89852ab",
+      "bodyTextPrefix": "Editorial NEWSPAPER RENDERER Regenerar Producción Contenido Dise",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Editorial",
+      "hasCanvas": false,
+      "bodyTextLen": 1797,
+      "bodyTextHash": "c194d79318187c0e409cfe60274f7c3104292d4e0b393c37bdc58944f94ddd50",
+      "bodyTextPrefix": "Editorial Contenido Diseño Tipo Exportar NOMBRE DEL MEDIO EDICIÓ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
