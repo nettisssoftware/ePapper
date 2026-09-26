@@ -158,7 +158,7 @@ export function justifyLine(
   const gaps = line.words.length - 1;
   const extra = width - wordsWidth;
   const gap = extra / gaps;
-  if (gap > font.size * 0.5 || gap < font.size * 0.08) {
+  if (gap > font.size * 1.8 || gap < font.size * 0.02) {
     return justifyLine(line, font, x, width, false);
   }
   const words: PositionedWord[] = [];
