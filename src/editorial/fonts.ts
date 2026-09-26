@@ -14,6 +14,20 @@ import "@fontsource/ibm-plex-serif/latin-400-italic.css";
 import "@fontsource/ibm-plex-serif/latin-500.css";
 import "@fontsource/ibm-plex-serif/latin-600.css";
 import "@fontsource/ibm-plex-serif/latin-700.css";
+import "@fontsource-variable/lora/wght.css";
+import "@fontsource-variable/lora/wght-italic.css";
+import "@fontsource-variable/merriweather/wght.css";
+import "@fontsource-variable/merriweather/wght-italic.css";
+import "@fontsource-variable/libre-franklin/wght.css";
+import "@fontsource-variable/oswald/wght.css";
+import "@fontsource-variable/archivo/wght.css";
+import "@fontsource-variable/archivo/wght-italic.css";
+import "@fontsource-variable/bodoni-moda/wght.css";
+import "@fontsource-variable/unbounded/wght.css";
+import "@fontsource/playfair-display-sc/latin-400.css";
+import "@fontsource/playfair-display-sc/latin-700.css";
+import "@fontsource/anton/latin-400.css";
+import "@fontsource/bebas-neue/latin-400.css";
 
 export interface FontFamilyDef {
   id: string;
@@ -98,6 +112,96 @@ export const FONT_CATALOG: FontFamilyDef[] = [
     italic: false,
     variable: true,
   },
+  {
+  id: "lora",
+  cssName: "Lora Variable",
+  label: "Lora",
+  role: "both",
+  weights: [400, 500, 600, 700],
+  italic: true,
+  variable: true,
+},
+{
+  id: "merriweather",
+  cssName: "Merriweather Variable",
+  label: "Merriweather",
+  role: "both",
+  weights: [300, 400, 500, 600, 700, 800, 900],
+  italic: true,
+  variable: true,
+},
+{
+  id: "libre-franklin",
+  cssName: "Libre Franklin Variable",
+  label: "Libre Franklin",
+  role: "body",
+  weights: [400, 500, 600, 700, 800, 900],
+  italic: true,
+  variable: true,
+},
+{
+  id: "oswald",
+  cssName: "Oswald Variable",
+  label: "Oswald",
+  role: "display",
+  weights: [200, 300, 400, 500, 600, 700],
+  italic: false,
+  variable: true,
+},
+{
+  id: "archivo",
+  cssName: "Archivo Variable",
+  label: "Archivo",
+  role: "both",
+  weights: [400, 500, 600, 700, 800, 900],
+  italic: true,
+  variable: true,
+},
+{
+  id: "bodoni-moda",
+  cssName: "Bodoni Moda Variable",
+  label: "Bodoni Moda",
+  role: "display",
+  weights: [400, 500, 600, 700, 800, 900],
+  italic: true,
+  variable: true,
+},
+{
+  id: "unbounded",
+  cssName: "Unbounded Variable",
+  label: "Unbounded",
+  role: "display",
+  weights: [200, 300, 400, 500, 600, 700, 800, 900],
+  italic: false,
+  variable: true,
+},
+{
+  id: "playfair-sc",
+  cssName: "Playfair Display SC",
+  label: "Playfair Display SC",
+  role: "display",
+  weights: [400, 700],
+  italic: false,
+  variable: false,
+},
+{
+  id: "anton",
+  cssName: "Anton",
+  label: "Anton",
+  role: "display",
+  weights: [400],
+  italic: false,
+  variable: false,
+},
+{
+  id: "bebas-neue",
+  cssName: "Bebas Neue",
+  label: "Bebas Neue",
+  role: "display",
+  weights: [400],
+  italic: false,
+  variable: false,
+},
 ];
 
 export function fontByCssName(name: string): FontFamilyDef | undefined {
